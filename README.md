@@ -53,6 +53,5 @@ the app's viewModel reads a static json data and decodes the data using JSONDeco
 
 #### Screen shots :
 
-
-<img width="355" alt="Screenshot 2023-11-02 at 18 42 54" src="https://github.com/yvesduke/TwitterSample/assets/8191486/7899c3d5-b4c4-41dc-82b2-333578b1a904">
+<img width="355" alt="Screenshot 2023-11-02 at 18 42 54" src="https://github.com/yvesduke/TwitterSample/assets/8191486/216d5c04-136c-459b-8a3c-c66b137d8b36">
 
