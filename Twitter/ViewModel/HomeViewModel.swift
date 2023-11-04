@@ -9,11 +9,11 @@ import Foundation
 import Combine
 
 class HomeViewModel: ObservableObject {
-    
+
     @Published var tweets: [Twitter] = []
-    
+
     private func getJsonData() -> String {
-        
+
         return """
         [
             {
@@ -54,13 +54,11 @@ class HomeViewModel: ObservableObject {
             }
         ]
         """
-        
     }
-    
-    
+
     func getTweets() {
         let response = getJsonData()
-        
+
         guard let data = response.data(using: .utf8) else {
             return
         }

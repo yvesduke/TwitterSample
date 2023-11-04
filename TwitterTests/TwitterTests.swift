@@ -9,7 +9,7 @@ import XCTest
 @testable import Twitter
 
 final class TwitterTests: XCTestCase {
-    
+
     var viewModel: HomeViewModel!
 
     override func setUpWithError() throws {
@@ -24,7 +24,7 @@ final class TwitterTests: XCTestCase {
         viewModel.getTweets()
         XCTAssertEqual(viewModel.tweets.count, 3, "The number of tweets should be 3")
     }
-    
+
     func testGetFirstTweet() {
         viewModel.getTweets()
         let firstTweet = viewModel.tweets[0]

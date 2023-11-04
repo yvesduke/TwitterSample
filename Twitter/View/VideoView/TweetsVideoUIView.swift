@@ -10,7 +10,7 @@ import SwiftUI
 import AVKit
 
 struct TweetsVideoUIView: View {
-    
+
     let url: URL
 
     var body: some View {
