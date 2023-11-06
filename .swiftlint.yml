@@ -43,4 +43,8 @@ type_name:
     warning: 30
     error: 35
   excluded: iPhone # excluded via string
+  allowed_symbols: "_"
+  
+identifier_name:
+  allowed_symbols: "_"
 reporter: "xcode"

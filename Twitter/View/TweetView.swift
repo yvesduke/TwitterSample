@@ -26,7 +26,6 @@ struct TwitterView: View {
                         .font(.caption)
                     ScrollView(.horizontal) {
                         LazyHStack {
-                            
                             if let url = URL(string: tweet.image) {
                                 TweetsAsyncImageView(url: url)
                                     .frame(width: 150, height: 120)
