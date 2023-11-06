@@ -36,7 +36,4 @@ final class TwitterTests: XCTestCase {
         self.measure {
         }
     }
-    
-    
-
 }

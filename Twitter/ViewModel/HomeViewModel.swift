@@ -11,9 +11,8 @@ import Combine
 class HomeViewModel: ObservableObject {
 
     @Published var tweets: [Twitter] = []
-
+    // swiftlint:disable all
     private func getJsonData() -> String {
-
         return """
         [
             {
@@ -55,7 +54,7 @@ class HomeViewModel: ObservableObject {
         ]
         """
     }
-
+    // swiftlint:enable all
     func getTweets() {
         let response = getJsonData()
 
@@ -69,4 +68,3 @@ class HomeViewModel: ObservableObject {
         }
     }
 }
-

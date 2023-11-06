@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Twitter: Codable, Hashable {
     let id: Int
     let username: String

@@ -8,11 +8,9 @@
 import SwiftUI
 
 struct TweetsAsyncImageView: View {
-    
     let url: URL
     private let imageWidth = 150.0
     private let cellHeight = 150.0
-    
     var body: some View {
         CacheAsyncImage(
             url: url) { phase in
